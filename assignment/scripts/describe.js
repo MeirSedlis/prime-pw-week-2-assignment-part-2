@@ -25,11 +25,9 @@ if (number >= 2) {
 */
 
 
-// 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// 1. We assign the name variable the string 'Dane'.
+// We check if name is 'Mary' and if so, console will log "Hi, Mary!"
+//and if not, we console.log "How do you do?"
 
 //CODE
 /*
@@ -44,10 +42,10 @@ if (name === 'Mary') {
 
 */
 
-// 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// 2. We create a variable named secret. We create a variable named code and assign it the value 123. 
+// We then check if the code is 123 and if so, assign the the value of 'super' to secret and multiply the code by two.
+// If the code is over 250, the secret is assigned the value of 'duper'.
+// Console logs the value of secret.
 //
 
 //CODE
@@ -69,11 +67,11 @@ console.log(secret)
 
 */
 
-// 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// 3. We define the value of isStudent as true, the value of age as 24 and the value of zip as 55407.
+// If the student has a west coast zip code (>80000) console logs 'you're a student on the west coast'
+// If it's not a student or they're under 30, console logs 'What are your hobbies?'
+// If they are a student 30 or over, console logs 'Welcome to Prime!'
+// If none of these criteria are met, console logs 'How about the weather?'
 
 //CODE
 /*
