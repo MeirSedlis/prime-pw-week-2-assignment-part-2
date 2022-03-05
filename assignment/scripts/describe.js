@@ -26,8 +26,8 @@ if (number >= 2) {
 
 
 // 1. We assign the name variable the string 'Dane'.
-// We check if name is 'Mary' and if so, console will log "Hi, Mary!"
-//and if not, we console.log "How do you do?"
+// We check if name is 'Mary' and if so, we console.log "Hi, Mary!"
+// and if not, we console.log "How do you do?"
 
 //CODE
 /*
@@ -44,8 +44,8 @@ if (name === 'Mary') {
 
 // 2. We create a variable named secret. We create a variable named code and assign it the value 123. 
 // We then check if the code is 123 and if so, assign the the value of 'super' to secret and multiply the code by two.
-// If the code is over 250, the secret is assigned the value of 'duper'.
-// Console logs the value of secret.
+// If the code is over 250, we assign secret the value of 'duper'.
+// We console.log the value of secret.
 //
 
 //CODE
@@ -128,6 +128,8 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne should be set to blue and colorTwo should be set to red. 
+// We also need to reassign the value of colorTwo to 'purple' in our if code
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -142,6 +144,8 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+// FIX - If the time variable is changable, we need to use let instead of const. Unclear if this is necessary here.
+// In our if statement, we need to use && instead of || to indicate that both things must be true.
 let temp = 40;
 const time = 4;
 
@@ -155,12 +159,13 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
+// FIX - should read if(age >= minAge) and then lines 167 and 168 should be removed entirely 
 let age = 21;
 const minAge = 21;
 
 if(minAge <= age) {
-  console.log('no entry');
-} else {
+  console.log('no entry'); //remove this line
+} else { //remove this line
   console.log('enter');
 }
 */
